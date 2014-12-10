@@ -30,7 +30,7 @@ eval color_pink='$FG[204]'
 PROMPT='$color_gray%n@%m%{$reset_color%} $FG[032]%~\
  $(git_prompt_info) \
 $FG[118]%(!.#.
-» )%{$reset_color%} '
+»)%{$reset_color%} '
 RPS1="${return_code}"
 
 # Git
