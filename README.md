@@ -7,6 +7,7 @@ My personal zsh theme based on ```af-magic.zsh-theme``` from [andyfleming/oh-my-
 ![image](Screenshots/Screenshot.png)
 
 ## Usage
-
+	
 	antigen use oh-my-zsh
 	antigen theme wangyandong-ningxia/ningxia.zsh-theme ningxia
+	export NINGXIA_PROMPT_SYMBOL=⌁
