@@ -27,8 +27,9 @@ eval color_gray='$FG[246]'
 eval color_pink='$FG[204]'
 
 # Prompt
+NINGXIA_PROMPT_SYMBOL=⌁
 PROMPT='$color_gray%n@%m%{$reset_color%} $FG[032]%~ $(git_prompt_info)%{$reset_color%}
-$FG[118]⌁%{$reset_color%} '
+$FG[118]$NINGXIA_PROMPT_SYMBOL%{$reset_color%} '
 RPS1="${return_code}"
 
 # Git
